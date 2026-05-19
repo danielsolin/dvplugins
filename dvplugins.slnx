@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/doc/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="dvplugins.Core/dvplugins.Core.csproj" />
+  <Project Path="dvplugins.Plugins/dvplugins.Plugins.csproj" />
+</Solution>
