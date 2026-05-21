@@ -64,3 +64,4 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 /util
+/.gemini/skills/dataverse-plugin-setup
