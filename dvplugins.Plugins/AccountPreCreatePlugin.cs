@@ -1,3 +1,4 @@
+using System;
 using Microsoft.Xrm.Sdk;
 
 using dvplugins.Core;
@@ -6,8 +7,7 @@ namespace dvplugins.Plugins
 {
    public class AccountPreCreatePlugin : PluginBase
    {
-      public AccountPreCreatePlugin()
-         : base(typeof(AccountPreCreatePlugin))
+      public AccountPreCreatePlugin(Type pluginType) : base(pluginType)
       {
       }
 
